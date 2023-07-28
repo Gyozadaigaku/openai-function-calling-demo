@@ -1,7 +1,4 @@
-import Link from 'next/link'
-
-import { siteConfig } from '@/config/site'
-import { buttonVariants } from '@/components/ui/Button'
+import Chat from '@/components/chat/Chat'
 
 export default function IndexPage() {
   return (
@@ -16,6 +13,7 @@ export default function IndexPage() {
           into your apps. Free. Open Source. And Next.js 13 Ready.
         </p>
       </div>
+      <Chat />
     </section>
   )
 }
