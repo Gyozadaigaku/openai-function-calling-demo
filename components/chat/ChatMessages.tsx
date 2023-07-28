@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { ChatCompletionRequestMessage } from 'openai'
 
 import { cn } from '@/lib/utils'
-import { Skeleton } from '@/components/ui/skeleton'
+import { Skeleton } from '@/components/ui/Skeleton'
 
 interface ChatMessagesProps {
   messages: ChatCompletionRequestMessage[]
