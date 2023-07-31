@@ -29,7 +29,7 @@ const ChatForm: React.FC<ChatFormProps> = ({ form, onSubmit, loading }) => {
               <FormControl className="m-0 p-0">
                 <Input
                   className="border-0 shadow-none focus-visible:ring-0 focus-visible:ring-transparent"
-                  placeholder="神奈川の天気を教えて"
+                  placeholder="東京の時刻を教えて"
                   disabled={loading}
                   {...field}
                 />
